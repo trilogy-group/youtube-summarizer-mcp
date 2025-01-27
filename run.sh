@@ -15,7 +15,7 @@ echo "Python executable: $(which python)"
 pip install -r requirements.txt
 
 # Run the client and server
-python MCP/server.py
+python client.py server.py
 
 # Deactivate the virtual environment
 deactivate

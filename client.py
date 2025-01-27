@@ -10,6 +10,10 @@ class MCPClient:
         # Initialize session and client objects
         self.session: Optional[ClientSession] = None
         self.exit_stack = AsyncExitStack()
+        
+        # Initialize Anthropic client
+        from anthropic import Anthropic
+        self.anthropic = Anthropic()  # Requires ANTHROPIC_API_KEY environment variable
     
     async def connect_to_server(self, server_script_path: str):
         """Connect to an MCP server
