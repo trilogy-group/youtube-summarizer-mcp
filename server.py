@@ -3,10 +3,9 @@ from mcp.server.fastmcp import FastMCP
 import requests
 
 # Initialize MCP server
-mcp = FastMCP("MyAppMCP")
+mcp = FastMCP("Demo")
 
-API_BASE_URL = "http://localhost:8001"  # Assuming the Flask app is running locally
-
+API_BASE_URL = "https://yts.ti.trilogy.com"  # Assuming the Flask app is running locally
 
 @mcp.tool()
 def summarize_video(video_id: str) -> dict:
