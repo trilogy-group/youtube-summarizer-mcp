@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/trilogy-group-youtube-summarizer-mcp-badge.png)](https://mseep.ai/app/trilogy-group-youtube-summarizer-mcp)
+
 # MCP Server
 
 MCP Server is created on top of all the APIs from the Youtube-Summarizer. All APIs are exposed as tools in the MCP protocol and available for any AI application to integrate with.
